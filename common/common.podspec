@@ -25,11 +25,11 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '744831110@qq.com' => 'chenqian7@joyy.com' }
-  s.source           = { :git => 'https://github.com/744831110/example_bin_framework.git/common' }
+  s.source           = { :git => 'https://github.com/744831110/example_bin_framework.git' }
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'common/Classes/**/*'
+  s.source_files = 'common/common/Classes/**/*'
 #  s.static_framework = true
   
   # s.resource_bundles = {
