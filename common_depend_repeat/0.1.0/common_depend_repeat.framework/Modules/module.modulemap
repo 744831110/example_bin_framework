@@ -1,0 +1,11 @@
+framework module common_depend_repeat {
+  umbrella header "common_depend_repeat-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module common_depend_repeat.Swift {
+    header "common_depend_repeat-Swift.h"
+    requires objc
+}
