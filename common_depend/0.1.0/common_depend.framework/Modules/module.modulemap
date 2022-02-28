@@ -1,0 +1,6 @@
+framework module common_depend {
+  umbrella header "common_depend-umbrella.h"
+
+  export *
+  module * { export * }
+}
